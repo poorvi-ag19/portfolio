@@ -1,0 +1,58 @@
+/* components/Introduction.css */
+
+.introduction {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .profile-image {
+    width: 150px; /* Set the size of the image */
+    height: 150px;
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden; /* Hide overflow for circular effect */
+    border: 5px solid #00aaff; /* Border color */
+    margin: 0 auto; /* Center the image */
+  }
+  
+  .profile-image img {
+    width: 100%; /* Make image fill the container */
+    height: 100%;
+    object-fit: cover; /* Cover the container without stretching */
+  }
+  
+  .skills {
+    background: linear-gradient(90deg, #e0e0e0, #c0c0c0); /* Metallic look */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  .skills h2 {
+    margin-bottom: 15px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; /* Allow skills to wrap */
+    justify-content: center; /* Center the skills */
+    margin: 5px;
+    
+  }
+  
+  .skill {
+    background: #ffffff; /* White background for skill boxes */
+    
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Small shadow */
+    transition: transform 0.2s; /* Animation effect */
+  }
+  
+  .skill:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  

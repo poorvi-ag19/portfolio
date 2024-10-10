@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
+import 'primereact/resources/themes/saga-blue/theme.css'; // Choose your theme
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

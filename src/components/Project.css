@@ -1,0 +1,37 @@
+/* components/Project.css */
+
+.project-container {
+    display: flex;
+    justify-content: space-around; /* Space between cards */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin: 40px 0;
+    background: linear-gradient(90deg, #e0e0e0, #c0c0c0); /* Metallic look */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  .project-card {
+    background: linear-gradient(90deg, #aad0e2, #f3f1f1); /* Metallic look */
+    border: 1px solid #b0b0b0; /* Border for card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    width: 250px; /* Fixed width for cards */
+    transition: transform 0.2s; /* Animation effect */
+    text-align: center; /* Center text */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .project-card h3 {
+    margin-bottom: 10px; /* Space between title and content */
+  }
+  
+  .project-card p {
+    color: #555; /* Content color */
+  }
+  
