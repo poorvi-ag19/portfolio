@@ -1,7 +1,7 @@
 // components/Introduction.js
 import React from 'react';
 import './Introduction.css';
-import pimage from '../assests/profile.jpg'
+import pimage from '../assests/profile.jpeg'
 
 const Introduction = () => {
   return (

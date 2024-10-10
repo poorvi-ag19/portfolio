@@ -1,0 +1,40 @@
+.footer {
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    margin-bottom: 15px;
+  }
+  
+  .footer h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .address {
+    margin: 5px 0;
+  }
+  
+  .footer-socials {
+    margin: 15px 0;
+  }
+  
+  .footer-socials a {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  .footer-socials a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
